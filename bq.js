@@ -2541,7 +2541,7 @@ if(tp){attr=attrs[i];}
 outstr+="|"+dom[attr];}
 outstr=outstr.slice(1),name=name.slice(1);
 if(outstr.indexOf("\n")!==-1){outstr=outstr.replace(/\n/g,"<br>");}
-if(outstr.indexOf("\x20")!==-1){outstr=outstr.replace(/\s/g,"&nbsp")}
+if(outstr.indexOf("\x20")!==-1){outstr=outstr.replace(/\s/g,"kongge");}
 ob.name=name,ob.value=outstr;
 return ob;}
 return false;
